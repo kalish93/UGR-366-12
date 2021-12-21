@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: #c5cae9;
+}
+header{
+    padding: 30px 45px;
+    background-color: #37474f;
+    color: #fff;
+    flex-wrap: wrap;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all 0.3s ease-out;
+
+}
+nav ul li a:hover{
+    color: #c5cae9;
+    transform: rotate(6deg);
+
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+footer{
+    background-color: #37474f;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.intro{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main table tr td ul li{
+    list-style: none;
+}
+
+.information{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 70px;
+    grid-row-gap: 10px;
+}
+main table{
+    border: whitesmoke 2px solid;
+    border-collapse: collapse;
+}
+main table tr td{
+    border: wheat 0.5px solid;
+    border-collapse: collapse;
+}
+.hire a{
+    background-color: #37474f;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+    
+
+}
+.hire{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.intro h1{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-shadow: 4px 4px gray;
+}
+@media screen and (max-width: 768px) {
+    nav ul{
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+        
+    }
+    
+}
